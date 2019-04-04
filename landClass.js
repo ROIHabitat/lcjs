@@ -6,7 +6,7 @@ var sectionGrid = {};
 var qtrs = {};
 //Names of types for toolbar
 var coverTypes = ["CROP","GRASS","TREES","WETLAND"];
-//Colour of types on canvas. Should match CSS sheet. Order same as coverTypes
+//Colour of types on canvas. Should match CSS file. Order same as coverTypes
 var colours = ["#D8D827", "#D88027", "#80EF44", "#ADD8E6"];
 //Tooltip text in toolbar. Order same as above.
 var toolTips = [
