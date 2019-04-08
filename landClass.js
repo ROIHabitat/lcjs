@@ -6,14 +6,14 @@ var sectionGrid = {};
 var qtrs = {};
 //Names of types for toolbar
 var coverTypes = ["CROP","GRASS","TREES","WETLAND"];
-//Colour of types on canvas. Should match CSS file. Order same as coverTypes
+//Colour of types on canvas. Should match CSS sheet. Order same as coverTypes
 var colours = ["#D8D827", "#D88027", "#80EF44", "#ADD8E6"];
 //Tooltip text in toolbar. Order same as above.
 var toolTips = [
-	"Crop can often be identified by linear patterns from farming equipment<br><b><i>Click for examples</i></b>",
-	"Grass is any open area without tree cover not being used in crop production<br><b><i>Click for examples</i></b>",
-	"Trees are fairly easy to identify on air photos because of their distinctive texture<br><b><i>Click for examples</i></b>",
-	"Wetland refers to areas of water, or areas that likely contained water<br><b><i>Click for examples</i></b>"
+	"Crop can often be identified by linear patterns from farming equipment<br><br><b><i>Click for examples</i></b>",
+	"Grass is any open area without tree cover not being used in crop production<br><br><b><i>Click for examples</i></b>",
+	"Trees are fairly easy to identify on air photos because of their distinctive texture<br><br><b><i>Click for examples</i></b>",
+	"Wetland refers to areas of water, or areas that likely contained water<br><br><b><i>Click for examples</i></b>"
 ]
 var activeType;
 

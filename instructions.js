@@ -88,6 +88,14 @@ function hideDivs(){
 
  
 function writeInstructions(){
+	
+	if (screen.height < 700 || screen.width < 820){
+		document.getElementById('instructions').style.display = 'none';
+		document.getElementById('notice').style.display = 'block';
+		document.getElementById('notice').innerHTML = "<b>Notice:</b> Your screen resolution is too low for this task. In order to help insure accurate results, we ask that you use a screen that is at least 820 pixels wide and 700 pixels high.<br><br> Your resolution is currently set to: " +screen.width +" x "+ screen.height+"<br><br>Please increase your resolution or switch devices and retry.";
+		return;
+	}
+	
 	document.getElementById("content").innerHTML = pages[0];
 	
 	var nextP = document.createElement("div");
